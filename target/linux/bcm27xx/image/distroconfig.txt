@@ -12,3 +12,4 @@ dtoverlay=disable-bt
 dtoverlay=disable-bt
 [pi4]
 dtoverlay=disable-bt
+dtoverlay=disable-wifi
