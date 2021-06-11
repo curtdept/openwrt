@@ -1279,11 +1279,9 @@ CONFIG_BUSYBOX_DEFAULT_NETMSG=y
 CONFIG_BUSYBOX_DEFAULT_NETSTAT=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_NETSTAT_WIDE=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_NETSTAT_PRG=y
-# CONFIG_BUSYBOX_DEFAULT_NSLOOKUP is not set
-# CONFIG_BUSYBOX_DEFAULT_FEATURE_NSLOOKUP_BIG is not set
+CONFIG_BUSYBOX_DEFAULT_NSLOOKUP=y
+CONFIG_BUSYBOX_DEFAULT_FEATURE_NSLOOKUP_BIG=y
 # CONFIG_BUSYBOX_DEFAULT_FEATURE_NSLOOKUP_LONG_OPTIONS is not set
-CONFIG_BUSYBOX_DEFAULT_NSLOOKUP_OPENWRT=y
-# CONFIG_BUSYBOX_DEFAULT_FEATURE_NSLOOKUP_OPENWRT_LONG_OPTIONS is not set
 CONFIG_BUSYBOX_DEFAULT_NTPD=y
 CONFIG_BUSYBOX_DEFAULT_FEATURE_NTPD_SERVER=y
 # CONFIG_BUSYBOX_DEFAULT_FEATURE_NTPD_CONF is not set
@@ -1778,13 +1776,13 @@ CONFIG_PACKAGE_bcm27xx-gpu-fw=y
 # CONFIG_PACKAGE_brcmfmac-firmware-43430-sdio-rpi-3b is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-43430-sdio-rpi-zero-w is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-43430a0-sdio is not set
-CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio=y
+# CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio-rpi-3b-plus is not set
-CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio-rpi-4b=y
+# CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio-rpi-4b is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-43602a1-pcie is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-4366b1-pcie is not set
 # CONFIG_PACKAGE_brcmfmac-firmware-4366c0-pcie is not set
-CONFIG_PACKAGE_brcmfmac-firmware-usb=y
+# CONFIG_PACKAGE_brcmfmac-firmware-usb is not set
 # CONFIG_PACKAGE_brcmsmac-firmware is not set
 # CONFIG_PACKAGE_carl9170-firmware is not set
 # CONFIG_PACKAGE_cypress-firmware-43012-sdio is not set
@@ -1792,7 +1790,7 @@ CONFIG_PACKAGE_brcmfmac-firmware-usb=y
 # CONFIG_PACKAGE_cypress-firmware-43362-sdio is not set
 # CONFIG_PACKAGE_cypress-firmware-4339-sdio is not set
 # CONFIG_PACKAGE_cypress-firmware-43430-sdio is not set
-CONFIG_PACKAGE_cypress-firmware-43455-sdio=m
+# CONFIG_PACKAGE_cypress-firmware-43455-sdio is not set
 # CONFIG_PACKAGE_cypress-firmware-4354-sdio is not set
 # CONFIG_PACKAGE_cypress-firmware-4356-pcie is not set
 # CONFIG_PACKAGE_cypress-firmware-4356-sdio is not set
@@ -1806,7 +1804,7 @@ CONFIG_PACKAGE_cypress-firmware-43455-sdio=m
 # CONFIG_PACKAGE_cypress-nvram-43430-sdio-rpi-3b is not set
 # CONFIG_PACKAGE_cypress-nvram-43430-sdio-rpi-zero-w is not set
 # CONFIG_PACKAGE_cypress-nvram-43455-sdio-rpi-3b-plus is not set
-CONFIG_PACKAGE_cypress-nvram-43455-sdio-rpi-4b=m
+# CONFIG_PACKAGE_cypress-nvram-43455-sdio-rpi-4b is not set
 # CONFIG_PACKAGE_e100-firmware is not set
 # CONFIG_PACKAGE_edgeport-firmware is not set
 # CONFIG_PACKAGE_eip197-mini-firmware is not set
@@ -1869,7 +1867,7 @@ CONFIG_PACKAGE_cypress-nvram-43455-sdio-rpi-4b=m
 # CONFIG_PACKAGE_ti-3410-firmware is not set
 # CONFIG_PACKAGE_ti-5052-firmware is not set
 # CONFIG_PACKAGE_wil6210-firmware is not set
-CONFIG_PACKAGE_wireless-regdb=y
+# CONFIG_PACKAGE_wireless-regdb is not set
 # CONFIG_PACKAGE_wl12xx-firmware is not set
 # CONFIG_PACKAGE_wl18xx-firmware is not set
 # end of Firmware
@@ -2706,16 +2704,11 @@ CONFIG_PACKAGE_kmod-usb3=y
 # CONFIG_PACKAGE_kmod-ath9k-htc is not set
 # CONFIG_PACKAGE_kmod-b43 is not set
 # CONFIG_PACKAGE_kmod-b43legacy is not set
-CONFIG_PACKAGE_kmod-brcmfmac=y
-CONFIG_BRCMFMAC_SDIO=y
-CONFIG_BRCMFMAC_USB=y
-CONFIG_BRCMFMAC_PCIE=y
+# CONFIG_PACKAGE_kmod-brcmfmac is not set
 # CONFIG_PACKAGE_kmod-brcmsmac is not set
-CONFIG_PACKAGE_kmod-brcmutil=y
-# CONFIG_PACKAGE_BRCM80211_DEBUG is not set
+# CONFIG_PACKAGE_kmod-brcmutil is not set
 # CONFIG_PACKAGE_kmod-carl9170 is not set
-CONFIG_PACKAGE_kmod-cfg80211=y
-# CONFIG_PACKAGE_CFG80211_TESTMODE is not set
+# CONFIG_PACKAGE_kmod-cfg80211 is not set
 # CONFIG_PACKAGE_kmod-hermes is not set
 # CONFIG_PACKAGE_kmod-hermes-pci is not set
 # CONFIG_PACKAGE_kmod-hermes-plx is not set
@@ -4381,7 +4374,6 @@ CONFIG_PACKAGE_luci-app-https-dns-proxy=y
 # CONFIG_PACKAGE_luci-app-lxc is not set
 # CONFIG_PACKAGE_luci-app-minidlna is not set
 # CONFIG_PACKAGE_luci-app-mjpg-streamer is not set
-# CONFIG_PACKAGE_luci-app-modeminfo is not set
 # CONFIG_PACKAGE_luci-app-mwan3 is not set
 # CONFIG_PACKAGE_luci-app-nextdns is not set
 # CONFIG_PACKAGE_luci-app-nft-qos is not set
@@ -5494,37 +5486,28 @@ CONFIG_PACKAGE_uhttpd-mod-ubus=y
 # CONFIG_PACKAGE_hostapd-basic is not set
 # CONFIG_PACKAGE_hostapd-basic-openssl is not set
 # CONFIG_PACKAGE_hostapd-basic-wolfssl is not set
-CONFIG_PACKAGE_hostapd-common=y
+# CONFIG_PACKAGE_hostapd-common is not set
 # CONFIG_PACKAGE_hostapd-mini is not set
 # CONFIG_PACKAGE_hostapd-openssl is not set
-# CONFIG_PACKAGE_hostapd-utils is not set
 # CONFIG_PACKAGE_hostapd-wolfssl is not set
 # CONFIG_PACKAGE_hs20-client is not set
 # CONFIG_PACKAGE_hs20-common is not set
 # CONFIG_PACKAGE_hs20-server is not set
-# CONFIG_PACKAGE_wpa-cli is not set
 # CONFIG_PACKAGE_wpa-supplicant is not set
-# CONFIG_WPA_RFKILL_SUPPORT is not set
-CONFIG_WPA_MSG_MIN_PRIORITY=3
 # CONFIG_WPA_WOLFSSL is not set
 # CONFIG_DRIVER_WEXT_SUPPORT is not set
-CONFIG_DRIVER_11N_SUPPORT=y
-CONFIG_DRIVER_11AC_SUPPORT=y
+# CONFIG_DRIVER_11N_SUPPORT is not set
+# CONFIG_DRIVER_11AC_SUPPORT is not set
 # CONFIG_DRIVER_11AX_SUPPORT is not set
 # CONFIG_WPA_ENABLE_WEP is not set
 # CONFIG_PACKAGE_wpa-supplicant-basic is not set
-# CONFIG_PACKAGE_wpa-supplicant-mesh-openssl is not set
-# CONFIG_PACKAGE_wpa-supplicant-mesh-wolfssl is not set
 # CONFIG_PACKAGE_wpa-supplicant-mini is not set
 # CONFIG_PACKAGE_wpa-supplicant-openssl is not set
-# CONFIG_PACKAGE_wpa-supplicant-p2p is not set
 # CONFIG_PACKAGE_wpa-supplicant-wolfssl is not set
 # CONFIG_PACKAGE_wpad is not set
 # CONFIG_PACKAGE_wpad-basic is not set
-CONFIG_PACKAGE_wpad-basic-openssl=y
+# CONFIG_PACKAGE_wpad-basic-openssl is not set
 # CONFIG_PACKAGE_wpad-basic-wolfssl is not set
-# CONFIG_PACKAGE_wpad-mesh-openssl is not set
-# CONFIG_PACKAGE_wpad-mesh-wolfssl is not set
 # CONFIG_PACKAGE_wpad-mini is not set
 # CONFIG_PACKAGE_wpad-openssl is not set
 # CONFIG_PACKAGE_wpad-wolfssl is not set
@@ -6330,6 +6313,7 @@ CONFIG_PACKAGE_pciutils=y
 # CONFIG_PACKAGE_pcsc-tools is not set
 # CONFIG_PACKAGE_pcscd is not set
 # CONFIG_PACKAGE_podman is not set
+# CONFIG_PACKAGE_podman-selinux is not set
 # CONFIG_PACKAGE_policycoreutils is not set
 # CONFIG_PACKAGE_powertop is not set
 # CONFIG_PACKAGE_pps-tools is not set
