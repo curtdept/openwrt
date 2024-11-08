@@ -1,4 +1,6 @@
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
 
+ethtool -K eth1 rxvlan on txvlan on ntuple on rx-udp-gro-forwarding on
+
 exit 0
